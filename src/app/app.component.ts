@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { TwainComponent } from './twain/twain.component';
 
 @Component({
   selector: 'app-root',
