@@ -1,6 +1,5 @@
 import { hot, cold } from 'jasmine-marbles';
 import { merge } from 'rxjs/operators'
-import { Observable } from 'rxjs/Observable';
 import { TestColdObservable, TestHotObservable } from 'jasmine-marbles/src/test-observables';
 
 var e1: TestHotObservable =  hot('----a--^--b-------c--|');
